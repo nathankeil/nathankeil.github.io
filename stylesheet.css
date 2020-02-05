@@ -1,4 +1,60 @@
-html{
+/* html {
   background-color: #000000;
-  font-family: 
+  font-family: sans-serif;
+} */
+
+html{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-family: 'Space Mono', monospace;
+}
+
+.contentContainer{
+  width: 100%;
+  /* margin-top: 25%; */
+}
+
+.nameDiv{
+  text-align: center;
+  font-size: 50px;
+  /* position: absolute; */
+}
+
+.optionsDiv{
+  /* position: absolute; */
+  border-top: 50px solid white;
+  border-bottom: 50px solid white;
+  text-align:center;
+}
+
+.optionButton{
+  /* float: left; */
+  background-color: black;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 100px;
+  z-index: 100;
+
+  /* background-clip: content-box; */
+  /* padding-top: -100px; */
+
+
+}
+.optionButton a{
+  color: white;
+  text-decoration: none;
+}
+.optionButton p{
+  /* float: left; */
+  margin: 0px;
+
+  /* background-clip: content-box; */
+  /* padding-top: -100px; */
+
+
 }
